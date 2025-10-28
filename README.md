@@ -1,38 +1,45 @@
-# vue-project
 
-This template should help get you started developing with Vue 3 in Vite.
+# 🟢 HNG Ticket System — Vue 3 + Vite
 
-## Recommended IDE Setup
+This is the **Vue.js** version of the HNG Ticket Management System — a simple, modern app that allows users to sign up, log in, and manage tickets in an interactive dashboard.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🚀 Live Demo
+👉 [Deployed on Vercel](https://hng-ticket-app-4ygn0byi6-josephs-projects-073151de.vercel.app)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## ⚙️ Tech Stack
+- [Vue 3](https://vuejs.org/) (Composition API)
+- [Vite](https://vitejs.dev/)
+- [Vue Router](https://router.vuejs.org/)
+- [Lucide Vue Next](https://www.npmjs.com/package/lucide-vue-next)
+- [TailwindCSS](https://tailwindcss.com/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🧩 Features
+✅ User Signup & Login  
+✅ Ticket creation and management  
+✅ Dashboard overview  
+✅ Status filtering (Open, In Progress, Closed)  
+✅ Responsive, lightweight, and fast  
 
-```sh
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AdeJoey/HNG-ticket-app-Vue.git
+
+# Navigate to Vue project
+cd Ticket-app-Vue/vue-project
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start the development server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
